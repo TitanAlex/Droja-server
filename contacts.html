@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@357&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="send.css" type="text/css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Droja Contacts</title>
+  </head>
+  <body>
+    <header id="home">
+      <div class="wrapper">
+        <div class="header_wrapper">
+          <div class="header_logo">
+            <h1>Droja</h1>
+          </div>
+          <div id="menu" class="p_menu">
+            <a id="1" href="index.html" class="a_menu">Главная</a>
+            <a id="2" href="index.html" href="#about" class="a_menu">Автор</a>
+            <a id="3" href="https://www.youtube.com/channel/UCt_jmGw4kuPTbK4zovnhWDQ" target="_blank" class="a_menu">Канал</a>
+            <a id="4" href="contacts.html" class="a_menu">Контакты</a>
+            <a id="5" href="gallery.html" class="a_menu">Галерея</a>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+
+      <section>
+        <div class="wrapper">
+          <div class="send_wrapper">
+            <div class="send_title">
+              <h2>По вопросам сотрудничества</h2>
+            </div>
+            <div class="send_text">
+              <p>Пользователи отправляющие письма не по теме будут блокироваться!</p>
+            </div>
+            <div class="send_text">
+              <p>Ответ в течение 2 дней</p>
+            </div>
+            <div class="send_form">
+
+            <form action="send.php" method="post">
+            <input class="form1 formstyle" placeholder="Ваше имя" type="text" name="fio" required>
+            <input class="form2 formstyle" placeholder="Ваш e-mail" type="email" name="email">
+            </div>
+            <textarea class="form3 formstyle" name="message" cols="50" rows="10" placeholder="Напишите ваше сообщение сюда..."></textarea>
+            <div class="g-recaptcha" data-sitekey="ключ сайта"></div>
+            <input class="send_button" type="submit" value="Отправить">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <link rel="stylesheet" href="lightzoom1/style.css">
+        <script src="lightzoom1/lightzoom.js"></script>
+        <script>jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true, isOverlayClickClosing: true, isEscClosing: true,});</script>
+        <script src="script.js"></script>
+  </body>
+
+
+  <footer>
+    <div class="wrapper">
+      <div class="footer_wrapper">
+        <div class="footer_left">
+          <p> Все права защищены.<br>Droja Show.©2022.<br></p>
+        </div>
+        <div class="footer_right">
+        <div id="foot_menu" class="footer_menu">
+          <a href="https://www.youtube.com/channel/UCt_jmGw4kuPTbK4zovnhWDQ"  target="_blank"><img class="footer_menu1" src="footer/youtube.png" alt="YuoTube"></a>
+          <a href=" https://discord.gg/hM8m35K"  target="_blank"><img class="footer_menu2" src="footer/discord.png" alt="Discord"></a>
+          <a href="https://vk.com/drrojashow"  target="_blank"><img  class="footer_menu3" src="footer/vk.png" alt="VK" ></a>
+          <a href="https://www.instagram.com/jekadroja/"  target="_blank"><img  class="footer_menu4" src="footer/instagram.png" alt="INSTA" ></a>
+          <a href="https://twitter.com/Eugene_Droja"  target="_blank"><img  class="footer_menu5" src="footer/twiter.png" alt="twitter" ></a>
+          <a href="https://steamcommunity.com/groups/drojagroup"  target="_blank"><img  class="footer_menu6" src="footer/Steam.png" alt="STEAM" ></a>
+      </div>
+    </div>
+  </div>
+</div>
+  </footer>
+</html>
