@@ -2,8 +2,8 @@ body{
   margin: 0;
   max-width: 100%;
 }
-header{
 
+header{
   width: 100%;
   max-width: 100%;
   height: 70px;
@@ -15,11 +15,13 @@ header{
   left: 0;
   top: 0;
 }
+
 .header_wrapper{
 	flex-direction:row;
 	display: flex;
 	justify-content: center;
 }
+
 .header_logo{
   font-family:ZCOOL KuaiLe;
 	font-style: normal;
@@ -28,10 +30,9 @@ header{
 	color: #000000;
 	font-size: 23px;
   margin-bottom: 10px;
-
 }
-.p_menu{
 
+.p_menu{
   font-style: Italic;
   font-weight: Bold;
   cursor: pointer;
@@ -40,14 +41,15 @@ header{
   margin-top: 50px;
   font-size: 20px;
   padding-left: 50px;
-
 }
+
 .a_menu{
   padding-left: 40px;
   margin-left: 30px;
   text-decoration: none;
   color: #000000;
 }
+
 a{
 	padding-left: 40px;
 	padding-bottom: 40px;
@@ -57,6 +59,7 @@ a{
 intro{
   background-color: #0F4FA8;
 }
+
 .intro_wrapper{
   display: flex;
 	flex-direction: row;
@@ -65,20 +68,24 @@ intro{
   padding-bottom: 150px;
   background-color: #0F4FA8;
 }
+
 .intro_img{
   max-width: 430px;
   box-shadow: rgb(0 0 0 / 20%) 0 20px 27px 0;
 }
+
 .intro_right{
   margin-right: auto;
 	width: 700px;
 	justify-content: center;
 }
+
 .intro_left{
   margin-right: auto;
 	margin-left: auto;
 	justify-content: center;
 }
+
 .intro_title{
   font-family: Roboto;
 	font-style: normal;
@@ -95,6 +102,7 @@ intro{
   left: 0;
   position: relative;
 }
+
 .intro_text{
   font-family: Roboto;
 	font-size: 23px;
@@ -104,8 +112,9 @@ intro{
 	line-height: 28px;
   color:white;
 }
+
 .intro_button{
-  background-color: #0F4FA8;
+  background-color: #0e3c7c;
 	width: 225px;
 	height: 65px;
 	cursor: pointer;
@@ -115,25 +124,25 @@ intro{
 	font-size: 16px;
 	line-height: 26px;
 	text-align: center;
+  transition: 0.5s;
   letter-spacing: 0.15em;
-	transition: 800ms;
-  float:left;
-  box-shadow: rgb(0 0 0 / 20%) 0 10px 32px 0;
-}
-.intro_button:hover{
+  border: none;
+  position: relative;
+  left: 175px; 
+  top: 25px;
   border-radius: 50px;
 }
-.youtube_button_img
-{
-  background: url(img/youTube.png) center center/32px no-repeat;
-  height: 26px;
-  width: 46px;
-  float: left;
+
+.intro_button:hover{
+  background-color: #0a2853;
 }
 
-videorol{
-
+.yt-icon {
+  position: relative;
+  display: inline;
+  color: red;
 }
+
 .videorol_title{
   font-family: Roboto;
   display: flex;
@@ -149,7 +158,6 @@ videorol{
   height:472.5px;
 
 }*/
-
 
 .youtube-iframe{
   border-style: outset;
@@ -213,8 +221,6 @@ videorol{
 
 }
 
-
-
 .about_wrapper{
   display: flex;
 	flex-direction: row;
@@ -244,8 +250,8 @@ videorol{
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 20px;
-
 }
+
 .botton_line_about{
   background: #000000;
   height: 4px;
@@ -276,13 +282,15 @@ videorol{
 	line-height: 26px;
 	text-align: center;
   letter-spacing: 0.15em;
-	transition: 800ms;
+	transition: 0.5s;
+  border: none;
+  position: relative;
   float: left;
 }
 .about_button:hover{
 	border-radius: 50px;
+  background-color: #0a2853;
 }
-
 
 .Discord_wrapper{
 	display: flex;
@@ -334,7 +342,7 @@ videorol{
   color:white;
 }
 .discord_button{
-  background-color: #404eed;
+  background-color: #333eb6;
 	width: 225px;
 	height: 65px;
 	cursor: pointer;
@@ -346,21 +354,21 @@ videorol{
 	line-height: 26px;
 	text-align: center;
   letter-spacing: 0.15em;
-	transition: 800ms;
+  border: none;
+	transition: 0.5s;
   float:left;
   box-shadow: rgb(0 0 0 / 20%) 0 10px 32px 0;
 }
 .discord_button:hover{
   border-radius: 50px;
+  background-color: #0a2853;
 }
 .discord_button_img{
   background: url(img/discord_icn.png) center center/32px no-repeat;
   height: 26px;
   width: 46px;
   float: left;
-
 }
-
 
 advertisement{
   background-color: #D3D3D3;
@@ -375,13 +383,11 @@ advertisement{
   font-family: Oswald;
 }
 
-
 .patreon_wrapper{
   display: flex;
 	flex-direction: row;
   padding-top: 80px;
   padding-bottom: 80px;
-
 }
 .patreon_left{
   margin-right: auto;
@@ -395,7 +401,6 @@ advertisement{
   margin-right: auto;
 	width: 700px;
 	justify-content: center;
-
 }
 .patreon_title{
   font-family: Roboto;
@@ -430,15 +435,18 @@ advertisement{
 	font-style: normal;
 	font-weight: Bold;
 	font-size: 16px;
+  transition: 0.5s;
+  border: none;
 	line-height: 26px;
 	text-align: center;
   letter-spacing: 0.15em;
-	transition: 800ms;
+	transition: 0.5s;
   float:left;
   box-shadow: rgb(0 0 0 / 20%) 0 10px 32px 0;
 }
 .patreon_button:hover{
   border-radius: 50px;
+  background-color: #0a2853;
 }
 .patreon_button_img{
   background: url(img/patreon_icn.png) center center/62px no-repeat;
@@ -449,15 +457,13 @@ advertisement{
 
 footer{
   justify-content: flex-end;
-  background-color: #05316D	;
-
+  background-color: #05316D;
 }
 .footer_wrapper{
   justify-content: flex-end;
   display: flex;
 }
 .footer_right{
-
   max-width: 75%;
 }
 .footer_menu1{
@@ -465,7 +471,7 @@ footer{
   justify-content: flex-end;
   margin-top: 30px;
   cursor: pointer;
-
+  left: 50px;
 }
 .footer_menu2{
   max-width: 50px;
@@ -510,7 +516,6 @@ footer{
 
 
 .description_wrapper{
-
   justify-content: center;
   margin-top: 80px;
 }
