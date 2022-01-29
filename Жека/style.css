@@ -149,19 +149,19 @@ videorol{
   height:472.5px;
 
 }*/
-iframe{
+
+
+.youtube-iframe{
+  border-style: outset;
+  padding: 5px;
+  border-width: 7px;
+  border-color: #9200ff;
   justify-content: center;
   display: flex;
   width: 840px;
   height: 472.5px;
   margin-left: auto;
   margin-right: auto;
-  border-style: outset;
-  padding: 5px;
-  border-width: 7px;
-  border-color: #9200ff;
-
-
 }
 .youtube-frame{
   justify-content: center;
