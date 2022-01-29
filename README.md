@@ -1,1 +1,3 @@
-# Droja-server
+# Droja-web
+
+Сайт ютубера Жеки Дрожи xD
